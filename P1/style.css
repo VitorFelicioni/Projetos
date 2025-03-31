@@ -14,7 +14,7 @@ body, html {
 
 main {
     position: relative;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
 }
 
@@ -40,6 +40,23 @@ section > div#image {
 }
 
 section > div#texto {
-    display: block;
+    display: flex;
     padding: 10px;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+#botao {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    border: 2px dashed red;
+}
+
+#botao > a {
+    display: flex;
+    color: white;
+    width: 70%;
+    justify-content: center;
+    text-decoration: none;
 }
