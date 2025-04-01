@@ -9,7 +9,7 @@
 body, html {
     height: 100vh;
     width: 100vw;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 main {
@@ -24,10 +24,9 @@ section#conteudo {
     top: 50%;
     left: 50%;
     overflow: hidden;
-    width: 375px;
-    height: 500px;
+    width: 300px;
+    height: 580px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px;
     
     transform: translate(-50%, -50%);
 }
@@ -40,23 +39,90 @@ section > div#image {
 }
 
 section > div#texto {
-    display: flex;
-    padding: 10px;
+    display: block;
+    padding: 5px 10px 10px;
+    padding-top: 10px;
     flex-flow: row wrap;
     justify-content: left;
 }
 
-#botao {
-    display: flex;
-    justify-content: center;
-    background-color: hsl(158, 36%, 37%);
-    border: 2px dashed red;
+div#texto > .texto1 {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    padding-bottom: 5px;
+    padding-top: 10px;
+    width: 85%;
+    margin: auto;
 }
 
-#botao > a {
+div#texto > .texto2 {
     display: flex;
-    color: white;
-    width: 70%;
-    justify-content: center;
-    text-decoration: none;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    width: 85%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
+div#texto > .texto4 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    width: 85%;
+    padding-top: 10px;
+    margin: auto;
+}
+
+section > div#valor {
+    display: flex;
+    font-family: "Fraunces", serif;
+    flex-flow: row nowrap;
+    width: 80%;
+    margin: auto;
+}
+
+#valor > .valor1 {
+    font-size: 2em;
+    color: hsl(158, 36%, 37%);
+    padding-top: 12px;
+}
+
+#valor > .valor2 {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 20px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+#botao {
+    display: block;
+   margin-top: 10px;
+} 
+
+a.button {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    width: 85%;
+    height: 43px;
+    padding-top: 12px;
+    margin-top: 5px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    border: 1px solid #49a09d;
+}
+
+a.button > i {
+    font-size: 1.1em;
+}
+
