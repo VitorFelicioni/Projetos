@@ -24,7 +24,7 @@ section#conteudo {
     top: 50%;
     left: 50%;
     overflow: hidden;
-    width: 300px;
+    width: 375px;
     height: 580px;
     border-radius: 10px;
     
@@ -57,10 +57,10 @@ div#texto > .texto1 {
 }
 
 div#texto > .texto2 {
-    display: flex;
     font-family: "Fraunces", serif;
     font-weight: 700;
     color: hsl(212, 21%, 14%);
+    display: flex;
     width: 85%;
     margin: auto;
     padding-top: 5px;

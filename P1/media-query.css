@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 990px) {
-    
+@media screen and (min-width: 1440px) {
+    section#conteudo {
+        width: 35vw;
+        height: 48vh;
+        border: 2px dashed black;
+    }
+
+    section#conteudo > div#image {
+        float: left;
+        background-image: url(images/image-product-desktop.jpg);
+        width: 260px;
+        height: 100%;
+        /* background-size: contain; */
+    }
+
+    section#conteudo > div#texto {
+        float: inline-start;
+        width: 250px;
+    }
+
+    div#texto > .texto2 {
+        font-size: 1.9em;
+    }
+
+    section#conteudo > div#valor {
+        float: inline-start;
+        width: 250px;
+        padding-left: 30px;
+        font-weight: bold;
+    }
+
+    section#conteudo > div#botao {
+        float: inline-start;
+        width: 250px;
+    }
 }
