@@ -4,13 +4,12 @@
     section#conteudo {
         width: 35vw;
         height: 48vh;
-        border: 2px dashed black;
     }
 
     section#conteudo > div#image {
         float: left;
         background-image: url(images/image-product-desktop.jpg);
-        width: 260px;
+        width: 280px;
         height: 100%;
         /* background-size: contain; */
     }
