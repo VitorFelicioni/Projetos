@@ -89,6 +89,7 @@ section > div#valor {
     font-size: 2em;
     color: hsl(158, 36%, 37%);
     padding-top: 12px;
+    font-weight: bold;
 }
 
 #valor > .valor2 {
